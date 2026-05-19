@@ -1,0 +1,14 @@
+nav {
+  background-color: #111214;
+}
+nav .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.links {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+}
