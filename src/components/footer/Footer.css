@@ -1,0 +1,29 @@
+footer .container {
+  text-align: center;
+}
+footer {
+  background-color: #0c0c0e;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+footer h2 {
+  height: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+
+  letter-spacing: -4%;
+  text-align: center;
+  color: #a9a9aa;
+}
+footer h2 h3 {
+  color: #ffffff;
+}
