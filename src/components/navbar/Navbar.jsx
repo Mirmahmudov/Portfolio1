@@ -1,6 +1,7 @@
 import React from "react";
 import "./Navbar.css";
 import { NavLink } from "react-router-dom";
+import { FaBars } from "react-icons/fa";
 function Navbar() {
   return (
     <nav>
@@ -24,6 +25,9 @@ function Navbar() {
             <NavLink to={"/service"}>Service</NavLink>
           </li>
         </ul>
+        <div className="nonebutons">
+           <FaBars />
+        </div>
         <button>contact</button>
       </div>
     </nav>
