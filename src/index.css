@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 :root {
   --bg-color: #ffffff;
   --bg-dark: #0d0d0d;
@@ -11,10 +12,13 @@
   --font-body: 'Poppins', sans-serif;
 }
 
+=======
+>>>>>>> master
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+<<<<<<< HEAD
 }
 
 body {
@@ -51,4 +55,12 @@ img {
   max-width: 100%;
   height: auto;
   display: block;
+=======
+  list-style: none;
+  text-decoration: none;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+>>>>>>> master
 }
